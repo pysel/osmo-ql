@@ -1,0 +1,10 @@
+---
+library: false
+warnOnImplicitThis: false
+extractor: go
+name: pysel/osmo-ql
+version: 0.0.1
+default-suite:
+    - query: src/sdkOperators.ql
+dependencies:
+  codeql/go-all: 0.3.6
